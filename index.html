@@ -4,91 +4,128 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Vivalo — sua vida, seu amor e sua fé</title>
-<meta name="description" content="Vivalo organiza sua rotina, saúde, finanças, fé e a vida a dois em um só app. Baixe para Android ou use no iPhone pelo navegador.">
+<meta name="description" content="Vivalo organiza rotina, saúde, finanças, fé, idiomas e a vida a dois num app só. Baixe para Android ou use no iPhone pelo navegador.">
 <meta name="theme-color" content="#000000">
 <meta property="og:title" content="Vivalo — sua vida, seu amor e sua fé">
-<meta property="og:description" content="Rotina, saúde, finanças, fé e a vida a dois em um só app.">
-<meta property="og:image" content="https://eulazacruz.github.io/usevivalo/icon.png">
+<meta property="og:description" content="Rotina, saúde, finanças, fé, idiomas e a vida a dois num app só.">
+<meta property="og:image" content="https://eulazacruz.github.io/usevivalo/media/demo-capa.jpg">
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="ambient"></div>
+<div class="spot"></div><div class="grain"></div>
 <div class="wrap">
   <nav>
     <a class="brand" href="./"><img src="icon.png" alt="">Vivalo</a>
-    <div class="links"><a href="#instalar">Instalar</a><a href="#duvidas">Dúvidas</a></div>
+    <div class="links"><a href="#telas">Telas</a><a href="#instalar">Instalar</a><a href="#duvidas">Dúvidas</a><a class="mini" href="#instalar">Baixar</a></div>
   </nav>
 
   <header class="hero">
-    <img class="orbit" src="icon.png" alt="Ícone do Vivalo">
-    <span class="pill"><i></i>Versão <span id="ver">7.0.0</span> · grátis</span>
-    <h1>Sua vida, seu amor<br>e sua fé, <em>em órbita.</em></h1>
-    <p class="lead">Rotina, saúde, finanças, fé, idiomas e a vida a dois num app só. Leve, bonito e feito pra quem quer viver com mais intenção.</p>
-    <div class="ctas">
-      <a class="btn primary" id="dl" href="https://eulazacruz.github.io/usevivalo/Vivalo.apk">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 9.48l1.84-3.18a.5.5 0 10-.87-.5l-1.86 3.22a11.4 11.4 0 00-9.42 0L5.43 5.8a.5.5 0 10-.87.5L6.4 9.48A10.8 10.8 0 001 18h22a10.8 10.8 0 00-5.4-8.52zM7 15.25a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5zm10 0a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5z"/></svg>
-        <span>Baixar para Android<small>Arquivo APK</small></span>
-      </a>
-      <a class="btn secondary" href="#iphone" onclick="tab('ios')">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16.37 12.6c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.77-3.32-1.8-1.41-.14-2.76.83-3.48.83-.72 0-1.82-.81-3-.79-1.54.02-2.96.9-3.76 2.27-1.6 2.78-.41 6.9 1.15 9.16.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.77.74 2.98.72 1.24-.02 2.02-1.12 2.77-2.23.87-1.28 1.23-2.52 1.25-2.58-.03-.01-2.4-.92-2.38-3.68zM14.1 5.86c.63-.77 1.06-1.83.94-2.89-.91.04-2.01.61-2.66 1.37-.58.67-1.09 1.75-.96 2.79 1.02.08 2.05-.52 2.68-1.27z"/></svg>
-        <span>Usar no iPhone<small>Pelo Safari</small></span>
-      </a>
+    <div>
+      <span class="eyebrow reveal"><i></i>Versão <span class="ver">7.0.0</span> · grátis</span>
+      <h1 class="reveal d1">Sua vida.<br>Seu amor.<br><span class="dim">Sua fé.</span></h1>
+      <p class="lead reveal d2">Rotina, saúde, finanças, fé, idiomas e a vida a dois num app só. Limpo, rápido e do seu jeito.</p>
+      <div class="ctas reveal d3">
+        <a class="btn primary dl" href="https://eulazacruz.github.io/usevivalo/Vivalo.apk">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 9.48l1.84-3.18a.5.5 0 10-.87-.5l-1.86 3.22a11.4 11.4 0 00-9.42 0L5.43 5.8a.5.5 0 10-.87.5L6.4 9.48A10.8 10.8 0 001 18h22a10.8 10.8 0 00-5.4-8.52zM7 15.25a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5zm10 0a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5z"/></svg>
+          <span>Baixar para Android<small>Arquivo APK · 13 MB</small></span>
+        </a>
+        <a class="btn ghost" href="#instalar" onclick="tab('ios')">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16.37 12.6c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.77-3.32-1.8-1.41-.14-2.76.83-3.48.83-.72 0-1.82-.81-3-.79-1.54.02-2.96.9-3.76 2.27-1.6 2.78-.41 6.9 1.15 9.16.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.77.74 2.98.72 1.24-.02 2.02-1.12 2.77-2.23.87-1.28 1.23-2.52 1.25-2.58-.03-.01-2.4-.92-2.38-3.68zM14.1 5.86c.63-.77 1.06-1.83.94-2.89-.91.04-2.01.61-2.66 1.37-.58.67-1.09 1.75-.96 2.79 1.02.08 2.05-.52 2.68-1.27z"/></svg>
+          <span>Usar no iPhone<small>Pelo Safari</small></span>
+        </a>
+      </div>
+      <p class="meta reveal d3">Android 8 ou superior · iPhone pelo navegador</p>
     </div>
-    <p class="meta">Android 8 ou superior · cerca de 13 MB</p>
+
+    <div class="stage reveal d2" id="stage">
+      <div class="phone side l"><div class="screen"><img src="media/fe.jpg" alt="" loading="lazy"></div></div>
+      <div class="phone side r"><div class="screen"><img src="media/financas.jpg" alt="" loading="lazy"></div></div>
+      <div class="phone main" id="main">
+        <div class="screen">
+          <video id="demo" src="media/demo.mp4" poster="media/demo-poster.jpg" autoplay muted loop playsinline preload="metadata"></video>
+          <button class="play" id="pp" aria-label="Pausar">
+            <svg id="pp-i" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
   </header>
 
-  <section>
-    <div class="glass notice">
-      <div class="dot">🌱</div>
-      <p><b>O Vivalo ainda não está na Play Store nem na App Store.</b> Por isso você instala direto por aqui. Quando sair uma versão nova, o próprio app mostra um aviso e só libera o uso depois de atualizar — assim todo mundo fica sempre na versão mais segura.</p>
-    </div>
-  </section>
+  <div class="marquee" aria-hidden="true"><div>
+    <span>Tarefas</span><span>Hábitos</span><span>Agenda</span><span>Água e sono</span><span>Humor</span><span>Respiração</span><span>Finanças</span><span>Cofrinhos</span><span>Bíblia</span><span>Devocional</span><span>Instantes</span><span>Jogos a dois</span><span>Inglês</span><span>Espanhol</span><span>Pet</span>
+    <span>Tarefas</span><span>Hábitos</span><span>Agenda</span><span>Água e sono</span><span>Humor</span><span>Respiração</span><span>Finanças</span><span>Cofrinhos</span><span>Bíblia</span><span>Devocional</span><span>Instantes</span><span>Jogos a dois</span><span>Inglês</span><span>Espanhol</span><span>Pet</span>
+  </div></div>
 
-  <section>
-    <h2>Tudo que importa, sem bagunça</h2>
-    <p class="sub">Você escolhe o que aparece. O app se adapta a você.</p>
-    <div class="grid">
-      <div class="glass card"><div class="ic">☀️</div><h3>Rotina e foco</h3><p>Tarefas, hábitos, metas, agenda e alarme com missão.</p></div>
-      <div class="glass card"><div class="ic">💚</div><h3>Saúde e mente</h3><p>Água, sono, humor, respiração, ciclo e alimentação.</p></div>
-      <div class="glass card"><div class="ic">💞</div><h3>A dois (opcional)</h3><p>Instantes, timeline, mural, jogos e jornada do casal.</p></div>
-      <div class="glass card"><div class="ic">🙏</div><h3>Fé (opcional)</h3><p>Bíblia, devocionais, oração e diário espiritual.</p></div>
-      <div class="glass card"><div class="ic">💰</div><h3>Finanças</h3><p>Gastos, orçamento e cofrinhos por objetivo.</p></div>
-      <div class="glass card"><div class="ic">🗣️</div><h3>Inglês e espanhol</h3><p>Lições curtas com um professor sem filtro.</p></div>
+  <section id="telas">
+    <p class="kicker reveal">Por dentro</p>
+    <h2 class="reveal d1">Tudo no lugar.<br><span class="dim">Nada sobrando.</span></h2>
+    <p class="sub reveal d2">Você responde 3 perguntas no primeiro acesso e o app mostra só o que faz sentido pra você.</p>
+    <div class="gallery">
+      <div class="shot reveal"><div class="phone"><div class="screen"><img src="media/hoje.jpg" alt="Tela Hoje" loading="lazy"></div></div><h3>Hoje</h3><p>Seu dia num relance: foco, agenda e status.</p></div>
+      <div class="shot reveal d1"><div class="phone"><div class="screen"><img src="media/cantinho.jpg" alt="Tela Nosso cantinho" loading="lazy"></div></div><h3>A dois</h3><p>Instantes sem filtro, timeline e mural do casal.</p></div>
+      <div class="shot reveal d2"><div class="phone"><div class="screen"><img src="media/fe.jpg" alt="Tela Fé" loading="lazy"></div></div><h3>Fé</h3><p>Leitura do dia, devocional e pedidos de oração.</p></div>
+      <div class="shot reveal d3"><div class="phone"><div class="screen"><img src="media/saude.jpg" alt="Tela Saúde" loading="lazy"></div></div><h3>Saúde</h3><p>Ciclo, hábitos, mente e corpo.</p></div>
+      <div class="shot reveal"><div class="phone"><div class="screen"><img src="media/financas.jpg" alt="Tela Finanças" loading="lazy"></div></div><h3>Finanças</h3><p>Saldo, orçamento e gastos da semana.</p></div>
+      <div class="shot reveal d1"><div class="phone"><div class="screen"><img src="media/idiomas.jpg" alt="Tela Idiomas" loading="lazy"></div></div><h3>Idiomas</h3><p>Inglês e espanhol com um professor sem filtro.</p></div>
+      <div class="shot reveal d2"><div class="phone"><div class="screen"><img src="media/mais.jpg" alt="Tela Mais" loading="lazy"></div></div><h3>Ferramentas</h3><p>Jogos, desafios, cofrinhos, despertador e mais.</p></div>
+    </div>
+    <p class="hint">Arraste para o lado →</p>
+
+    <div class="feats">
+      <div class="feat reveal"><span class="n">01</span><h3>Feito pra você</h3><p>Homem ou mulher, solteiro ou a dois, cristão ou não: o app se ajusta.</p></div>
+      <div class="feat reveal d1"><span class="n">02</span><h3>Fotos no seu Drive</h3><p>Fotos e vídeos ficam no seu próprio Google Drive, não num servidor nosso.</p></div>
+      <div class="feat reveal d2"><span class="n">03</span><h3>Em tempo real</h3><p>Conecte seu par e vejam tudo do casal sincronizado na hora.</p></div>
+      <div class="feat reveal"><span class="n">04</span><h3>Widgets e alarmes</h3><p>Atalhos na tela inicial e despertador com missão para levantar.</p></div>
+      <div class="feat reveal d1"><span class="n">05</span><h3>Leve e rápido</h3><p>Abre em segundos e funciona bem até em celulares mais simples.</p></div>
+      <div class="feat reveal d2"><span class="n">06</span><h3>Grátis</h3><p>Sem anúncios e sem venda de dados.</p></div>
     </div>
   </section>
 
   <section id="instalar">
-    <h2 id="iphone">Como instalar</h2>
-    <p class="sub">Leva menos de um minuto.</p>
-    <div class="tabs"><button id="t-and" class="on" onclick="tab('and')">Android</button><button id="t-ios" onclick="tab('ios')">iPhone</button></div>
+    <div class="notice reveal">
+      <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg></div>
+      <p><b>O Vivalo ainda não está na Play Store nem na App Store.</b> Por isso você instala por aqui. Quando sair uma versão nova, o próprio app avisa e só libera o uso depois de atualizar — assim todo mundo fica sempre na versão mais segura.</p>
+    </div>
+
+    <p class="kicker reveal" style="margin-top:60px">Instalação</p>
+    <h2 class="reveal d1">Pronto em 1 minuto.</h2>
+    <div class="tabs reveal d2"><button id="t-and" class="on" onclick="tab('and')">Android</button><button id="t-ios" onclick="tab('ios')">iPhone</button></div>
 
     <ol class="steps" id="s-and">
-      <li class="glass"><div><b>Toque em “Baixar para Android”</b><span>O arquivo Vivalo.apk vai para a pasta Downloads.</span></div></li>
-      <li class="glass"><div><b>Abra o arquivo baixado</b><span>Se o celular pedir, permita “Instalar apps desconhecidos” para o navegador ou para o app Arquivos.</span></div></li>
-      <li class="glass"><div><b>Se aparecer o aviso do Play Protect</b><span>Toque em “Mais detalhes” → “Instalar mesmo assim”. O aviso aparece para qualquer app fora da Play Store; o Vivalo é assinado sempre com a mesma chave.</span></div></li>
-      <li class="glass"><div><b>Entre com sua conta Google</b><span>Responda 3 perguntinhas e o app se monta do seu jeito.</span></div></li>
+      <li><div><b>Toque em “Baixar para Android”</b><span>O arquivo Vivalo.apk vai para a pasta Downloads.</span></div></li>
+      <li><div><b>Abra o arquivo baixado</b><span>Se pedir, permita “Instalar apps desconhecidos” para o navegador ou o app Arquivos.</span></div></li>
+      <li><div><b>Se aparecer o aviso do Play Protect</b><span>Toque em “Mais detalhes” → “Instalar mesmo assim”. Ele aparece para qualquer app de fora da loja.</span></div></li>
+      <li><div><b>Entre com sua conta Google</b><span>Responda 3 perguntinhas e o app se monta do seu jeito.</span></div></li>
     </ol>
-
     <ol class="steps hidden" id="s-ios">
-      <li class="glass"><div><b>Abra o link no Safari</b><span><a href="https://my-atlas-zeta.vercel.app/">my-atlas-zeta.vercel.app</a> — precisa ser o Safari, não o Chrome.</span></div></li>
-      <li class="glass"><div><b>Toque em Compartilhar</b><span>O quadrado com a seta para cima, na barra de baixo.</span></div></li>
-      <li class="glass"><div><b>“Adicionar à Tela de Início”</b><span>Role a lista até achar a opção e confirme em “Adicionar”.</span></div></li>
-      <li class="glass"><div><b>Abra pelo ícone novo</b><span>Ele funciona como app, em tela cheia. Alguns recursos nativos (widgets, alarme com missão, ilha de notificações) são só do Android por enquanto.</span></div></li>
+      <li><div><b>Abra no Safari</b><span><a href="https://my-atlas-zeta.vercel.app/">Toque aqui</a> — precisa ser o Safari, não o Chrome.</span></div></li>
+      <li><div><b>Toque em Compartilhar</b><span>O quadrado com a seta para cima, na barra de baixo.</span></div></li>
+      <li><div><b>“Adicionar à Tela de Início”</b><span>Role a lista até achar a opção e confirme em “Adicionar”.</span></div></li>
+      <li><div><b>Abra pelo ícone novo</b><span>Funciona em tela cheia. Widgets, alarme com missão e ilha de notificações são só do Android por enquanto.</span></div></li>
     </ol>
   </section>
 
   <section id="duvidas">
-    <h2>Dúvidas</h2>
-    <p class="sub">&nbsp;</p>
-    <details class="glass"><summary>É seguro instalar fora da Play Store?</summary><p>Sim. O APK é publicado só aqui, sempre assinado com a mesma chave. O Android avisa porque o app não veio de uma loja, não porque encontrou algo errado. Baixe apenas deste site.</p></details>
-    <details class="glass"><summary>Onde ficam minhas fotos e textos?</summary><p>Fotos e vídeos ficam no seu próprio Google Drive, numa pasta “Vivalo”. Textos e registros ficam num banco de dados protegido, que só você (e seu par, se você conectar um) consegue ler.</p></details>
-    <details class="glass"><summary>Preciso ter namorado(a) ou ser cristão para usar?</summary><p>Não. No primeiro acesso você responde se usa a dois e se quer a parte de fé. O que não fizer sentido pra você some do app — e dá pra mudar depois nas configurações.</p></details>
-    <details class="glass"><summary>Como funcionam as atualizações?</summary><p>O app confere se há versão nova ao abrir. Se houver, aparece um aviso com o botão de baixar; é só instalar por cima, sem perder nada.</p></details>
-    <details class="glass"><summary>Quanto custa?</summary><p>Nada. O Vivalo é gratuito.</p></details>
-    <details class="glass"><summary>Como apago minha conta?</summary><p>Em Configurações → Privacidade → Excluir minha conta. Tudo que está no banco é apagado; as fotos do seu Drive continuam sendo suas.</p></details>
+    <p class="kicker reveal">Dúvidas</p>
+    <h2 class="reveal d1">Perguntas frequentes.</h2>
+    <details><summary>É seguro instalar fora da Play Store?</summary><p>Sim. O APK é publicado só aqui, sempre assinado com a mesma chave. O Android avisa porque o app não veio de uma loja, não porque encontrou algo errado. Baixe apenas deste site.</p></details>
+    <details><summary>Onde ficam minhas fotos e textos?</summary><p>Fotos e vídeos ficam no seu Google Drive, numa pasta “Vivalo”. Textos e registros ficam num banco de dados protegido que só você — e seu par, se você conectar um — consegue ler.</p></details>
+    <details><summary>Preciso ter namorado(a) ou ser cristão para usar?</summary><p>Não. No primeiro acesso você diz se usa a dois e se quer a parte de fé. O que não fizer sentido some do app, e dá pra mudar depois nas configurações.</p></details>
+    <details><summary>Como funcionam as atualizações?</summary><p>O app confere se há versão nova ao abrir. Se houver, aparece um aviso com o botão de baixar; é só instalar por cima, sem perder nada.</p></details>
+    <details><summary>Quanto custa?</summary><p>Nada. O Vivalo é gratuito.</p></details>
+    <details><summary>Como apago minha conta?</summary><p>Em Configurações → Privacidade → Excluir minha conta. Tudo que está no banco é apagado; as fotos do seu Drive continuam sendo suas.</p></details>
   </section>
+
+  <div class="final">
+    <img class="orb reveal" src="icon.png" alt="">
+    <h2 class="reveal d1">Comece hoje.</h2>
+    <div class="ctas reveal d2">
+      <a class="btn primary dl" href="https://eulazacruz.github.io/usevivalo/Vivalo.apk"><span>Baixar para Android<small>Versão <span class="ver">7.0.0</span></small></span></a>
+      <a class="btn ghost" href="#instalar" onclick="tab('ios')"><span>Usar no iPhone<small>Pelo Safari</small></span></a>
+    </div>
+  </div>
 
   <footer>
     <p><a href="privacidade.html">Política de privacidade</a>·<a href="termos.html">Termos de uso</a></p>
@@ -99,7 +136,17 @@
 function tab(k){['and','ios'].forEach(function(x){document.getElementById('s-'+x).classList.toggle('hidden',x!==k);document.getElementById('t-'+x).classList.toggle('on',x===k);});}
 if(/iPhone|iPad|iPod/.test(navigator.userAgent))tab('ios');
 document.getElementById('y').textContent=new Date().getFullYear();
-fetch('version.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(v){document.getElementById('ver').textContent=v.version;if(v.apk)document.getElementById('dl').href=v.apk;}).catch(function(){});
+fetch('version.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(v){document.querySelectorAll('.ver').forEach(function(e){e.textContent=v.version});if(v.apk)document.querySelectorAll('.dl').forEach(function(a){a.href=v.apk});}).catch(function(){});
+/* revelar ao rolar */
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+/* luz que acompanha o cursor e inclinação do celular */
+var root=document.documentElement,main=document.getElementById('main'),stage=document.getElementById('stage');
+function move(x,y){root.style.setProperty('--x',x+'px');root.style.setProperty('--y',y+'px');var r=stage.getBoundingClientRect();var dx=(x-(r.left+r.width/2))/r.width,dy=(y-(r.top+r.height/2))/r.height;main.style.setProperty('--ry',(dx*14).toFixed(2)+'deg');main.style.setProperty('--rx',(-dy*10).toFixed(2)+'deg');}
+addEventListener('pointermove',function(e){move(e.clientX,e.clientY)},{passive:true});
+/* play/pause */
+var v=document.getElementById('demo'),pp=document.getElementById('pp'),ic=document.getElementById('pp-i');
+pp.onclick=function(){if(v.paused){v.play();ic.innerHTML='<path d="M6 4h4v16H6zM14 4h4v16h-4z"/>';pp.setAttribute('aria-label','Pausar');}else{v.pause();ic.innerHTML='<path d="M7 4l13 8-13 8z"/>';pp.setAttribute('aria-label','Reproduzir');}};
 </script>
 </body>
 </html>
