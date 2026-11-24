@@ -1,7 +1,7 @@
 {
-  "code": 71,
+  "code": 72,
   "min": 70,
-  "version": "7.1.0",
-  "notes": "Novo: Reclame Aqui do casal — abra reclamações com prazo (SLA), acompanhe a solução e veja a reputação de vocês.",
+  "version": "7.2.0",
+  "notes": "Novo: check-in de humor e tarefas obrigatórias que tocam como alarme, prova com foto e aprovação do par, e escolha do som do alarme.",
   "apk": "https://github.com/eulazacruz/usevivalo/raw/main/Vivalo.apk"
 }
